@@ -1,4 +1,5 @@
-/* @import "~bootstrap/css/bootstrap"; */
+@import "~bootstrap/scss/bootstrap";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
 
 
 body {
@@ -19,3 +20,17 @@ code {
 /* .LandingPage {
   
 } */
+
+// *** ABOUT ME ***
+// useInsertionEffect as useInsertionEffect$1,
+.skill-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
+}
+
+.skill-icon {
+  margin-bottom: 10px;
+}

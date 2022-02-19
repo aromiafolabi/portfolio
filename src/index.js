@@ -1,13 +1,14 @@
 import React from 'react'
+// import useInsertionEffect$1 from 'react'
 import ReactDOM from 'react-dom'
-import './styles/index.css'
+import './styles/index.scss'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+ 
+    <App />,
+  
   document.getElementById('root')
 );
 

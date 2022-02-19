@@ -1,6 +1,6 @@
 function LandingPage() {
   return (
-    <div className="landing-page-container">
+    <div className="landing-page-container" id="#">
         <p>
           Hi i'm Aromi!
           An Environmental Engineer 👩🏾‍🔬
