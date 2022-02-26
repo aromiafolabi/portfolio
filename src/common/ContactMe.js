@@ -1,8 +1,9 @@
 function ContactMe() {
   return (
+    <footer>
     <div className="contact-me-container" id="contact">
       <div className="contact-me-title">
-       <h1> Contact me</h1>
+      <h1> Contact me</h1>
       </div>
       <div className="contact-me-details">
         <div className="contact-me-email">
@@ -16,6 +17,7 @@ function ContactMe() {
         </div>
       </div>
     </div>
+    </footer>
   );
 }
 

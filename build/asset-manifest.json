@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.20d01c34.css",
+    "main.js": "/static/js/main.4ace2f3c.js",
+    "static/media/final-space.png": "/static/media/final-space.67ab77f359254d8b8de2.png",
+    "static/media/keto-kitchen.png": "/static/media/keto-kitchen.8742f65188e3a3952b5b.png",
+    "static/media/gym-invader.png": "/static/media/gym-invader.2b732a80765e5f124a54.png",
+    "static/media/honey-thyme.png": "/static/media/honey-thyme.6d098e2eae52229aa690.png",
+    "static/media/icons8-sass.svg": "/static/media/icons8-sass.386ae2b7c6607c331bf2abf0ebb63f24.svg",
+    "static/media/icons8-postgresql.svg": "/static/media/icons8-postgresql.6d3129da3f1900ded5afd8286e8e73ef.svg",
+    "static/media/icons8-nodejs.svg": "/static/media/icons8-nodejs.cccdafa931eebdaea49f5c5ac3ba232f.svg",
+    "static/media/icons8-html-5.svg": "/static/media/icons8-html-5.03a1785c71258d78f0895ca05b405b71.svg",
+    "static/media/icons8-javascript-logo.svg": "/static/media/icons8-javascript-logo.75e8c074400b1026129806da6e9269ee.svg",
+    "static/media/icons8-react.svg": "/static/media/icons8-react.c0efd05d6ce3f300282453985efe2605.svg",
+    "static/media/icons8-python.svg": "/static/media/icons8-python.026a62687ef705a39cfc755d7457859c.svg",
+    "static/media/icons8-npm.svg": "/static/media/icons8-npm.15227dbeb3ce2b15736aa2cf5155f62e.svg",
+    "static/media/heroku.svg": "/static/media/heroku.246b49f5599b526fa1abe49e09a3ee90.svg",
+    "static/media/django.svg": "/static/media/django.5c82237d5eec2a5ef9c72e7ea197d1c7.svg",
+    "index.html": "/index.html",
+    "static/media/expressjs.svg": "/static/media/expressjs.632d3c32e6c8f71f7f7faf4fb71b945b.svg",
+    "static/media/github.svg": "/static/media/github.22e65707326e3e1e37afd21c5334995a.svg",
+    "static/media/icons8-bootstrap.svg": "/static/media/icons8-bootstrap.91aad92a015faa64813b5f46723153a8.svg",
+    "static/media/icons8-css3.svg": "/static/media/icons8-css3.3ec320225ef851ed26cf9fd1c6ebaa54.svg",
+    "static/media/insomnia.svg": "/static/media/insomnia.060fc68cdc054b8db98c652b175a5e6c.svg",
+    "main.20d01c34.css.map": "/static/css/main.20d01c34.css.map",
+    "main.4ace2f3c.js.map": "/static/js/main.4ace2f3c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20d01c34.css",
+    "static/js/main.4ace2f3c.js"
+  ]
+}
