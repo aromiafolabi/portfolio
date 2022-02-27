@@ -172,9 +172,10 @@ li.burger-item {
 .about-me-container {
   text-align: center;
   margin-top: 200px;
-  
   display: flex;
   justify-content: center;
+  position: relative;
+  // height: 70vh;
 }
 
 div.card.about-me-card {
@@ -186,8 +187,12 @@ div.card.about-me-card {
   width: 50%;
   height: 50%;
   border-radius: 20px;
-  color: black;
+  position: relative;
+  @media only screen and (max-width: 600px){
+    width: 100%;
+  }
 }
+
 .card-body {
   padding: 0px 40px 0px 40px;
   margin: 20px 0px 20px 0px;
@@ -219,6 +224,10 @@ div.row.skills-rows {
   font-family: 'Abel', sans-serif;
   letter-spacing: 2px;
   line-height: 30px;
+  position: relative;
+  @media only screen and (max-width: 700px){
+    width: 100%;
+  }
 
 }
 
@@ -232,8 +241,22 @@ div.row.skills-rows {
 .skill-icon {
   height: 30px;
   margin-top: 30px;
-  filter: invert(42%) sepia(70%) saturate(1000%) hue-rotate(55deg) brightness(100%) contrast(100%)
+  filter: invert(42%) sepia(70%) saturate(1000%) hue-rotate(55deg) brightness(100%) contrast(100%);
+  // @media only screen and (max-width: 700px){
+  //   width: 20px;
+  //   height: 20px;
+  // }
 }
+
+div.col-lg-2.col-md-4 {
+  position: relative;
+  @media only screen and (max-width: 700px){
+    width: 80px;
+    height: 80px;
+    padding: 0px 15px 10px 10px;
+  }
+}
+
 
 .mb-o {
   font-size: 15px;

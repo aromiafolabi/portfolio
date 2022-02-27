@@ -44,7 +44,7 @@ function Skills () {
         </div>         
       <div className="col-lg-2 col-md-4 text-center">
         <img src={jsIcon}  className="skill-icon" alt="JavaScript Icon" />
-        <p className="mb-0">JavaScript</p>    
+        <p className="mb-0">JS</p>    
         </div>     
       <div className="col-lg-2 col-md-4 text-center">
         <img src={nodejsIcon}  className="skill-icon" alt="Node Icon" />
