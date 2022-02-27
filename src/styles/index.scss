@@ -3,16 +3,12 @@
 
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  // background-color: #00b4d8;
-  // color: rgb(29, 95, 29);
+  font-family: 'Abel', sans-serif;
+  background-color: #F0E9D2;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family:'Abel', sans-serif;
 }
 // *** Landing page ***
 .wrapper {
@@ -31,7 +27,9 @@ code {
   letter-spacing: 5px;
   text-transform: uppercase;
   padding: 3rem 2rem;
-  // background-color: green;
+  background-color: #181D31;
+  color: rgb(69, 194, 171);
+  border-radius: 20px;
   opacity: 0;
   animation: ani2 0.5s ease-out forwards
 
@@ -69,17 +67,12 @@ code {
   }
 }
 
-// @keyframes ani1{
-//   100%{
-//     transform: scale(1.1);
-//   }
-// }
+
 
 .arrow {
   margin-bottom: 20px;
   height: 35px;
-  filter: invert(16%) sepia(57%) saturate(100%) hue-rotate(247deg) brightness(88%) contrast(103%);
-  // background-color: black;
+  filter: invert(16%) sepia(70%) saturate(100%) hue-rotate(230deg) brightness(150%) contrast(20%);
 }
 .arrow:hover {
   animation: stretch 0.5s ease-out 0s alternate infinite none running;
@@ -90,30 +83,19 @@ code {
   }
 }
 // *** NAVBAR ***
-// .navigation {
-//   // display: inline-flex;
-//   // flex-direction: row;
-//   // background-color: black;
-//   transition: 0.3s ease;
-//   display: inline-flex;
-//   flex-direction: row;
-//   // justify-content: space-around;
-//   flex: 2;
-//   align-items: center;
-// 	top: 0;
-//   background-color: black;
-//   width: 100%;
-//   padding: 15px 20px;
-// }
+
 .nav {
 	display: inline-flex;
   flex-direction: row;
 	align-items: center;
 	height: 70px;
 	top: 0;
-  background-color: #03045E;
+  background-color: #181D31;
   width: 100%;
-  // box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+  font-family: 'Abel', sans-serif;
+  letter-spacing: 2px;
+  line-height: 30px;
+  color:rgb(69, 194, 171) ;
 }
 
 .nav-toggle {
@@ -130,14 +112,16 @@ code {
 }
 
 .burger-icon {
-  color: #E60023;
+  color: white;
   margin-left: 85%;
   margin-top: -10px;
+  border: solid 2px;
+  border-radius: 20%;
 }
 
 .side-nav-menu-container {
   width: 200px;
-  background-color: blue;
+  background-color: #22273b;;
   height: 300px;
   position: fixed;
   z-index: 2;
@@ -163,7 +147,7 @@ code {
 }
 a.nav-link {
   text-decoration: none;
-  color: white;
+  color: rgb(69, 194, 171);
   list-style: none;
 }
 li.burger-item {
@@ -175,7 +159,7 @@ li.burger-item {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  padding: 0px 5px 0px 5px;
+  padding: 0px 10px 0px 10px;
 }
 
 
@@ -187,74 +171,125 @@ li.burger-item {
 }
 .about-me-container {
   text-align: center;
-  margin-top: 10px;
-  background-color: #90E0EF;
+  margin-top: 200px;
+  
+  display: flex;
+  justify-content: center;
 }
 
-.card {
-  // background-color: #90E0EF;
-  // border: solid 1px #00b4d8 ;
+div.card.about-me-card {
+  background-color: #181D31;
+  color: rgb(69, 194, 171);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 50%;
+  height: 50%;
+  border-radius: 20px;
+  color: black;
 }
 .card-body {
   padding: 0px 40px 0px 40px;
   margin: 20px 0px 20px 0px;
+  color: rgb(69, 194, 171);
+  font-family: 'Abel', sans-serif;
+  letter-spacing: 2px;
+  line-height: 30px;
+  
+}
+.card-title {
+  text-decoration: underline;
 }
 //  *** SKILLS ***
 .skills-container {
-  margin: 10px 0px 80px 0px;
+  margin: 200px 0px 80px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 20px;
 }
-// div.col-lg-12 {
-//   margin: 20px 0px 10px 0px;
-// }
+
+div.row.skills-rows {
+  width: 65%;
+  height: 50%;
+  background-color: #181D31;
+  color: rgb(69, 194, 171);
+  border-radius: 20px;
+  padding: 0px 15px 10px 10px;
+  font-family: 'Abel', sans-serif;
+  letter-spacing: 2px;
+  line-height: 30px;
+
+}
+
 .skills-title {
   margin-top: 10px;
   margin-bottom: 10px;
-  // color: #41228e;
-  // font-family: 'Playfair Display', serif;
-  // font-size: 25px;
+  text-decoration: underline;
   font-weight: 600;
 }
 
 .skill-icon {
   height: 30px;
   margin-top: 30px;
+  filter: invert(42%) sepia(70%) saturate(1000%) hue-rotate(55deg) brightness(100%) contrast(100%)
 }
 
 .mb-o {
   font-size: 15px;
-  // font-family: 'Playfair Display', serif;
   margin-top: 5px;
   margin-bottom: 20px;
 }
 // *** EXPERIENCE ***
 .experience-title {
   text-align: center;
+  text-decoration: underline;
   margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px 0px 0px 0px;
 }
 .experience-container {
-  margin-top: 20px;
+  margin-top: 200px;
   margin-bottom: 20px;
+  background-color: #181D31;
+  color: rgb(69, 194, 171);
+  font-family: 'Abel', sans-serif;
+  letter-spacing: 2px;
+  line-height: 30px;
+}
+div.row.row-cols-1.row-cols-md-3.g-4 {
+  padding: 0px 20px 20px 20px;
+  
 }
 
 // *** PROJECTS ***
 .component-container {
-  margin: 20px 0px 40px 0px;
+  margin: 200px 0px 40px 0px;
+  background-color: #181D31;
+  color: rgb(69, 194, 171);
+  font-family: 'Abel', sans-serif;
+  letter-spacing: 2px;
+  line-height: 20px;
 }
 .carousel {
   width: 50%;
   height: 50%;
+  
 }
 .carousel-inner {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: rgb(69, 194, 171);
   width: 100%;
-  height: 100%;
+  height: 90%;
+  margin-bottom: 50px;
 }
+
 
 .project-links {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  background-color: #22273b;
+  padding-bottom: 10px;
 }
 
 .project-link-demo {
@@ -266,6 +301,10 @@ li.burger-item {
 }
 .project-name-description-container {
   text-align: center;
+  padding: 10px 0px 10px 0px;
+}
+.project-description {
+  margin-bottom: 0px;
 }
 .project-images {
   width: 50%;
@@ -278,25 +317,33 @@ li.burger-item {
 .projects-title-description-container {
   display: block;
   text-align: center;
+  padding-top: 10px;
+}
+.projects-title {
+  text-decoration: underline;
 }
 
-// .btn {
-//   background-color: ;
-// }
+.project-name-description-container {
+  margin-top: 10px;
+  background-color: #22273b;
+}
+.btn {
+  background-color: #5e91b3;
+  border-color: #181D31;
+}
 
 // *** CONTACT ME ***
-.footer {
-  background-color: black;
-}
 .contact-me-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 30px;
-  // margin-bottom: 2px;
+  margin-top: 200px;
   padding-bottom: 10px;
-  background-color: #03045E;
-  color: white;
+  background-color: #181D31;
+  color: rgb(69, 194, 171);
+  font-family: 'Abel', sans-serif;
+  letter-spacing: 2px;
+  line-height: 30px;
 }
 .contact-me-title {
   font-weight: bold;
@@ -307,6 +354,6 @@ li.burger-item {
 }
 a {
   text-decoration: none;
-  color: white
+  color: rgb(69, 194, 171);
 }
 

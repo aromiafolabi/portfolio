@@ -6,7 +6,7 @@
 function AboutMe() {
   return (
     <div className="about-me-container" id="aboutme">
-      <div class="card">
+      <div class="card about-me-card">
   <div class="card-body">
     <h1 class="card-title">About Me </h1>
     <p class="card-text">Hi, my name is Aromi. I am a full stack developer from London.</p>

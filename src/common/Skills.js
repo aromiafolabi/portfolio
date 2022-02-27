@@ -18,7 +18,7 @@ function Skills () {
 
   return (
     <div className="skills-container" id="skills">
-      <div className="row justify-content-around">
+      <div className="row skills-rows">
           <div className="col-lg-12 text-center">
             <h1 className="skills-title">Skills</h1>
             </div>        

@@ -85,7 +85,7 @@ export default function Projects() {
           <img src={project.image} className="project-images" alt={project.name}></img>
           <div className="project-name-description-container">
           <h2 className="project-name medium-title">{project.name}</h2>
-          <p>{project.description}</p>
+          <p className="project-description">{project.description}</p>
           </div>
           <div className="project-links">
             <div className="project-link-demo">

@@ -1,6 +1,7 @@
 function Experience() {
   return (
     <div className="experience-container" id="experience">
+      <div className="experience-info">
         <div className="experience-title">
           <h1>Experience</h1>
         </div>
@@ -67,6 +68,7 @@ function Experience() {
       </div>
     </div>
   </div>
+</div>
 </div>
 </div>
   );
