@@ -29,7 +29,7 @@ export default function Projects() {
       name: 'Project-4: Honey&Thyme',
       image: honeyThyme,
       // technologies: ['pythonIcon', 'djangoIcon', 'reactIcon', 'jsIcon',  'cssIcon','htmlIcon', 'githubIcon','herokuIcon'],
-      description: 'Pinterest clone of cocktails that allows users to register and login, save cockatils, comment on cocktails and search for cocktails',
+      description: 'Pinterest clone of cocktails that allows users to register and login, save cocktails, comment on cocktails and search for cocktails',
       links: {
         demo: 'https://honey-thyme.netlify.app',
         gitHub: 'https://github.com/aromiafolabi/Honey-Thyme-FE',
@@ -41,8 +41,8 @@ export default function Projects() {
       // technologies: ['devicon-python-plain', 'devicon-django-plain', 'devicon-postgresql-plain', 'devicon-javascript-plain','devicon-react-original-wordmark',  'devicon-sass-original','devicon-html5-plain-wordmark', 'devicon-css3-plain-wordmark', 'devicon-git-plain','devicon-heroku-original'],
       description: 'Use agile methodology to run 4-week personal growth and development sprints utilising a personal dashboard. Full stack app. 10-day sprint, 3-person team.',
       links: {
-        demo: 'https://ga-zenith.netlify.app',
-        gitHub: 'https://github.com/alaraayan/sei-project-4-frontend',
+        demo: 'https://ketokitchen.netlify.app',
+        gitHub: 'https://github.com/aromiafolabi/ketokitchen-front-end',
       },
     },
     {
@@ -51,8 +51,8 @@ export default function Projects() {
       // technologies: ['devicon-javascript-plain', 'devicon-nodejs-plain', 'devicon-express-original', 'devicon-mongodb-plain-wordmark', 'devicon-react-original-wordmark', 'devicon-sass-original','devicon-html5-plain-wordmark', 'devicon-css3-plain-wordmark', 'devicon-git-plain', 'devicon-heroku-original'],
       description: 'A new take on Netflix where you can choose movies based on your current mood. Full stack MERN app. 10-day sprint, 3-person team.',
       links: {
-        demo: 'https://ga-moodflix.netlify.app',
-        gitHub: 'https://github.com/alaraayan/sei-project-3-frontend',
+        demo: 'https://aromifinalspace.netlify.app',
+        gitHub: 'https://github.com/aromiafolabi/final-space',
       },
     },
     {
@@ -61,8 +61,8 @@ export default function Projects() {
       // technologies: ['devicon-react-original-wordmark', 'devicon-javascript-plain', 'devicon-sass-original','devicon-html5-plain-wordmark', 'devicon-css3-plain-wordmark', 'devicon-git-plain'],
       description: 'A multiple-choice quiz generator that consumes a public API. 28-hour hackathon, pair programming.',
       links: {
-        demo: 'https://trivialpursuit-ga.netlify.app',
-        gitHub: 'https://github.com/alaraayan/sei-project-2',
+        demo: 'https://aromiafolabi.github.io/gym-invaders/',
+        gitHub: 'https://github.com/aromiafolabi/gym-invaders',
       },
     },
   ]
@@ -73,7 +73,7 @@ export default function Projects() {
     <div className="column-flex-container">
       <div className="projects-title-description-container">
         <h1 className="projects-title">Projects</h1>
-        <p>Our learning in the General Assembly Software Engineering Immersive was consolidated with four projects</p>
+        <p>Our learning in the General Assembly's Software Engineering Immersive was consolidated with four projects</p>
       </div>
   <Carousel           
     slides = {

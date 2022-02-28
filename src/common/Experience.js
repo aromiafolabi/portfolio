@@ -8,7 +8,7 @@ function Experience() {
     <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card text-center">
-      <div class="card-body">
+      <div class="card-body experience-info">
         <h3 class="card-title">General Assembly</h3>
         <h6 className="experience-job-title card-subtitle mb-2 text-muted">
               Student

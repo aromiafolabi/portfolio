@@ -225,7 +225,7 @@ div.row.skills-rows {
   letter-spacing: 2px;
   line-height: 30px;
   position: relative;
-  @media only screen and (max-width: 700px){
+  @media only screen and (max-width: 800px){
     width: 100%;
   }
 
@@ -250,10 +250,11 @@ div.row.skills-rows {
 
 div.col-lg-2.col-md-4 {
   position: relative;
-  @media only screen and (max-width: 700px){
+  @media only screen and (max-width: 800px){
     width: 80px;
     height: 80px;
     padding: 0px 15px 10px 10px;
+    font-size: 10px;
   }
 }
 
@@ -262,6 +263,9 @@ div.col-lg-2.col-md-4 {
   font-size: 15px;
   margin-top: 5px;
   margin-bottom: 20px;
+  @media only screen and (max-width: 700px){
+    font-size: 7px;
+  }
 }
 // *** EXPERIENCE ***
 .experience-title {
@@ -277,13 +281,16 @@ div.col-lg-2.col-md-4 {
   background-color: #181D31;
   color: rgb(69, 194, 171);
   font-family: 'Abel', sans-serif;
-  letter-spacing: 2px;
-  line-height: 30px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  
 }
 div.row.row-cols-1.row-cols-md-3.g-4 {
   padding: 0px 20px 20px 20px;
-  
+
 }
+
+
 
 // *** PROJECTS ***
 .component-container {
@@ -371,6 +378,7 @@ div.row.row-cols-1.row-cols-md-3.g-4 {
 .contact-me-title {
   font-weight: bold;
   text-decoration: underline;
+  padding-top: 10px;
 }
 .bi {
   margin-right: 5px;
