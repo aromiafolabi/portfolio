@@ -89,10 +89,10 @@ export default function Projects() {
           </div>
           <div className="project-links">
             <div className="project-link-demo">
-          <a className="btn btn-primary" role="button" href={project.links.demo}> Website </a>
+          <a className="btn btn-primary" role="button" href={project.links.demo} target="blank"> Website </a>
           </div>
           <div className="project-link-code">
-          <a className="btn btn-primary" role="button" href ={project.links.gitHub}><i class="bi bi-github"></i> GitHub </a>
+          <a className="btn btn-primary" role="button" href={project.links.gitHub} target="blank"><i class="bi bi-github"></i> GitHub </a>
           </div>
           </div>
           </div>

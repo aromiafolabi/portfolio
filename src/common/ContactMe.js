@@ -7,7 +7,9 @@ function ContactMe() {
       </div>
       <div className="contact-me-details">
         <div className="contact-me-email">
+        <a href="mailto:aromiafolabi@googlemail.com" rel="noopener noreferrer" target="_blank">
         <i class="bi bi-envelope"></i> aromiafolabi@googlemail.com 
+        </a>
         </div>
         <div className="contact-me-linkedin">
         <i class="bi bi-linkedin"></i> <a href="https://www.linkedin.com/in/aromireafolabi/"> linkedin.com/in/aromireafolabi</a>

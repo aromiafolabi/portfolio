@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.df79afa1.css",
-    "main.js": "/static/js/main.71d71524.js",
+    "main.css": "/static/css/main.794283ad.css",
+    "main.js": "/static/js/main.92e8fdd1.js",
     "static/media/final-space.png": "/static/media/final-space.67ab77f359254d8b8de2.png",
     "static/media/keto-kitchen.png": "/static/media/keto-kitchen.8742f65188e3a3952b5b.png",
     "static/media/gym-invader.png": "/static/media/gym-invader.2b732a80765e5f124a54.png",
@@ -23,11 +23,11 @@
     "static/media/icons8-bootstrap.svg": "/static/media/icons8-bootstrap.91aad92a015faa64813b5f46723153a8.svg",
     "static/media/icons8-css3.svg": "/static/media/icons8-css3.3ec320225ef851ed26cf9fd1c6ebaa54.svg",
     "static/media/insomnia.svg": "/static/media/insomnia.060fc68cdc054b8db98c652b175a5e6c.svg",
-    "main.df79afa1.css.map": "/static/css/main.df79afa1.css.map",
-    "main.71d71524.js.map": "/static/js/main.71d71524.js.map"
+    "main.794283ad.css.map": "/static/css/main.794283ad.css.map",
+    "main.92e8fdd1.js.map": "/static/js/main.92e8fdd1.js.map"
   },
   "entrypoints": [
-    "static/css/main.df79afa1.css",
-    "static/js/main.71d71524.js"
+    "static/css/main.794283ad.css",
+    "static/js/main.92e8fdd1.js"
   ]
 }
