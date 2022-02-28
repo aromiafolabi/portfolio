@@ -193,15 +193,14 @@ div.card.about-me-card {
   }
 }
 
-.card-body {
-  padding: 0px 40px 0px 40px;
-  margin: 20px 0px 20px 0px;
-  color: rgb(69, 194, 171);
-  font-family: 'Abel', sans-serif;
-  letter-spacing: 2px;
-  line-height: 30px;
-  
-}
+// div.card-body {
+//   padding: 0px 40px 0px 40px;
+//   margin: 20px 0px 20px 0px;
+//   color: rgb(69, 194, 171);
+//   font-family: 'Abel', sans-serif;
+//   letter-spacing: 1px;
+//   line-height: 30px; 
+// }
 .card-title {
   text-decoration: underline;
 }
@@ -287,9 +286,17 @@ div.col-lg-2.col-md-4 {
 }
 div.row.row-cols-1.row-cols-md-3.g-4 {
   padding: 0px 20px 20px 20px;
-  letter-spacing: 1px;
-  line-height: 10px;
+  
 
+}
+// div.card.text-center {
+//   letter-spacing: 1px;
+//   line-height: 10px;
+// }
+
+li {
+  letter-spacing: 1px;
+  line-height: 25px;
 }
 
 
