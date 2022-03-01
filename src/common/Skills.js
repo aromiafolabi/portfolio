@@ -1,6 +1,6 @@
-import djangoIcon from '../assets/django.svg'
+import djangoIcon from '../assets/icons8-django.svg'
 import expressIcon from '../assets/expressjs.svg'
-import herokuIcon from '../assets/heroku.svg'
+import herokuIcon from '../assets/icons8-heroku.svg'
 import cssIcon from '../assets/icons8-css3.svg'
 import htmlIcon from '../assets/icons8-html-5.svg'
 import jsIcon from '../assets/icons8-javascript-logo.svg'
@@ -13,8 +13,8 @@ import insomniaIcon from '../assets/insomnia.svg'
 import bootstrapIcon  from '../assets/icons8-bootstrap.svg'
 import npmIcon from '../assets/icons8-npm.svg'
 import githubIcon from '../assets/github.svg'
-
 function Skills () {
+
 
   return (
     <div className="skills-container" id="skills">
@@ -25,7 +25,7 @@ function Skills () {
         <div className="col-lg-2 col-md-4 text-center">
         <img src={djangoIcon}  className="skill-icon" alt="Django Icon" /> 
         <p className="mb-0">Django</p>       
-        </div>    
+        </div>     
       <div className="col-lg-2 col-md-4 text-center">
         <img src={expressIcon}  className="skill-icon" alt="Express Icon" />
         <p className="mb-0">Express</p>   
@@ -33,7 +33,7 @@ function Skills () {
       <div className="col-lg-2 col-md-4 text-center">
         <img src={herokuIcon}  className="skill-icon" alt="Heroku Icon" />
         <p className="mb-0">Heroku</p>   
-        </div>     
+        </div>      
       <div className="col-lg-2 col-md-4 text-center">
         <img src={cssIcon}  className="skill-icon" alt="CSS Icon" />
         <p className="mb-0">CSS</p>    
@@ -69,7 +69,7 @@ function Skills () {
       <div className="col-lg-2 col-md-4 text-center">
         <img src={insomniaIcon}  className="skill-icon" alt="Insomnia Icon" />
         <p className="mb-0">Insomnia</p>   
-        </div>      
+        </div>       
       <div className="col-lg-2 col-md-4 text-center">
         <img src={bootstrapIcon}  className="skill-icon" alt="bootstrap Icon" />
         <p className="mb-0">Bootstrap</p>   
@@ -80,8 +80,8 @@ function Skills () {
         </div>     
       <div className="col-lg-2 col-md-4 text-center">
         <img src={githubIcon}  className="skill-icon" alt="github Icon" />
-        <p className="mb-0">GitHub</p>   
-      </div>
+        <p className="mb-0">GitHub</p>    
+      </div> 
       </div>
       </div>    
       )
