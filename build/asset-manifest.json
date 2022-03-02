@@ -1,33 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.aa14a0b9.css",
-    "main.js": "/static/js/main.b26eb289.js",
+    "main.css": "/static/css/main.1d055aa9.css",
+    "main.js": "/static/js/main.2fc1cff1.js",
     "static/media/final-space.png": "/static/media/final-space.67ab77f359254d8b8de2.png",
     "static/media/keto-kitchen.png": "/static/media/keto-kitchen.8742f65188e3a3952b5b.png",
     "static/media/gym-invader.png": "/static/media/gym-invader.2b732a80765e5f124a54.png",
     "static/media/honey-thyme.png": "/static/media/honey-thyme.6d098e2eae52229aa690.png",
+    "static/media/icons8-react.svg": "/static/media/icons8-react.50affe05073cd1cb9073b11e0b44d4ca.svg",
     "static/media/icons8-sass.svg": "/static/media/icons8-sass.386ae2b7c6607c331bf2abf0ebb63f24.svg",
-    "static/media/icons8-postgresql.svg": "/static/media/icons8-postgresql.6d3129da3f1900ded5afd8286e8e73ef.svg",
+    "static/media/icons8-postgresql.svg": "/static/media/icons8-postgresql.8476b777f5dafb247d10cb210af88d98.svg",
     "static/media/icons8-nodejs.svg": "/static/media/icons8-nodejs.cccdafa931eebdaea49f5c5ac3ba232f.svg",
     "static/media/icons8-html-5.svg": "/static/media/icons8-html-5.03a1785c71258d78f0895ca05b405b71.svg",
+    "static/media/icons8-python.svg": "/static/media/icons8-python.5b3b3e27911669952aaba59545320eae.svg",
     "static/media/icons8-javascript-logo.svg": "/static/media/icons8-javascript-logo.75e8c074400b1026129806da6e9269ee.svg",
-    "static/media/icons8-react.svg": "/static/media/icons8-react.c0efd05d6ce3f300282453985efe2605.svg",
-    "static/media/icons8-python.svg": "/static/media/icons8-python.026a62687ef705a39cfc755d7457859c.svg",
-    "static/media/icons8-npm.svg": "/static/media/icons8-npm.15227dbeb3ce2b15736aa2cf5155f62e.svg",
-    "static/media/heroku.svg": "/static/media/heroku.246b49f5599b526fa1abe49e09a3ee90.svg",
-    "static/media/django.svg": "/static/media/django.5c82237d5eec2a5ef9c72e7ea197d1c7.svg",
+    "static/media/icons8-npm.svg": "/static/media/icons8-npm.c7b31f60e374ee3f621dab17684e5d51.svg",
     "index.html": "/index.html",
+    "static/media/icons8-heroku.svg": "/static/media/icons8-heroku.f8843e0ffc7644ad21bb4f44277dc50c.svg",
     "static/media/down-arrow.svg": "/static/media/down-arrow.c75d77eb576298f8a6bbe8e8917c9f2f.svg",
+    "static/media/icons8-bootstrap.svg": "/static/media/icons8-bootstrap.92e5321d46b53e402ee113b3f4d72c45.svg",
     "static/media/expressjs.svg": "/static/media/expressjs.632d3c32e6c8f71f7f7faf4fb71b945b.svg",
     "static/media/github.svg": "/static/media/github.22e65707326e3e1e37afd21c5334995a.svg",
-    "static/media/icons8-bootstrap.svg": "/static/media/icons8-bootstrap.91aad92a015faa64813b5f46723153a8.svg",
-    "static/media/icons8-css3.svg": "/static/media/icons8-css3.3ec320225ef851ed26cf9fd1c6ebaa54.svg",
+    "static/media/icons8-css3.svg": "/static/media/icons8-css3.b6d54ce4b5d0f90529d44064c16cc9ad.svg",
+    "static/media/icons8-django.svg": "/static/media/icons8-django.3f59a22e8fc4c9a471b0b810b9b6c739.svg",
     "static/media/insomnia.svg": "/static/media/insomnia.060fc68cdc054b8db98c652b175a5e6c.svg",
-    "main.aa14a0b9.css.map": "/static/css/main.aa14a0b9.css.map",
-    "main.b26eb289.js.map": "/static/js/main.b26eb289.js.map"
+    "main.1d055aa9.css.map": "/static/css/main.1d055aa9.css.map",
+    "main.2fc1cff1.js.map": "/static/js/main.2fc1cff1.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa14a0b9.css",
-    "static/js/main.b26eb289.js"
+    "static/css/main.1d055aa9.css",
+    "static/js/main.2fc1cff1.js"
   ]
 }

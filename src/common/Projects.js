@@ -29,7 +29,7 @@ export default function Projects() {
       name: 'Project-4: Honey&Thyme',
       image: honeyThyme,
       // technologies: ['pythonIcon', 'djangoIcon', 'reactIcon', 'jsIcon',  'cssIcon','htmlIcon', 'githubIcon','herokuIcon'],
-      description: 'Pinterest clone of cocktails that allows users to register and login, save cocktails, comment on cocktails and search for cocktails',
+      description: 'Pinterest clone of cocktails that allows users to register and login, save cocktails, comment on cocktails and search for cocktails.',
       links: {
         demo: 'https://honey-thyme.netlify.app',
         gitHub: 'https://github.com/aromiafolabi/Honey-Thyme-FE',

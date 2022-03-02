@@ -9,7 +9,7 @@ function Experience() {
   <div class="col">
     <div class="card text-center">
       <div class="card-body experience-info">
-        <h3 class="card-title">General Assembly</h3>
+        <h3 class="card-title">General Assembly - London</h3>
         <h6 className="experience-job-title card-subtitle mb-2 text-muted">
               Student
         </h6>
@@ -31,7 +31,7 @@ function Experience() {
     <div class="card text-center">
       
       <div class="card-body">
-        <h3 class="card-title">Department for Business, Energy & Industrial Strategy</h3>
+        <h3 class="card-title">Department for Business, Energy & Industrial Strategy - London </h3>
         <h6 className="experience-job-title card-subtitle mb-2 text-muted">
             Advisor
           </h6>
@@ -51,7 +51,7 @@ function Experience() {
   <div class="col">
     <div class="card text-center">
       <div class="card-body">
-        <h3 class="card-title">Transport for London</h3>
+        <h3 class="card-title">Transport for London - London </h3>
         <h6 className="experience-job-title card-subtitle mb-2 text-muted">
               Performance Information Analyst
         </h6>
